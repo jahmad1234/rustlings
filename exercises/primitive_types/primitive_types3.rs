@@ -3,12 +3,12 @@
 // Execute `rustlings hint primitive_types3` or use the `hint` watch subcommand for a hint.
 
 fn main() {
-    let a = ["hellp"; 10000];
+    let a = ["help"; 10000];
     //println!("{:?}", a);
 
     if a.len() >= 100 {
         println!("Wow, that's a big array!");
-        //  println!("{:?}", a);
+        println!("{:?}", a);
     } else {
         println!("Meh, I eat arrays like that for breakfast.");
         //   println!("{:?}", a);
